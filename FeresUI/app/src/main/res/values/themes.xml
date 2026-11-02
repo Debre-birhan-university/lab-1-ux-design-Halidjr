@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FeresUI" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Force window background to green so no grey card shows through -->
+        <item name="android:windowBackground">#00A651</item>
+        <item name="android:colorBackground">#00A651</item>
+        <item name="colorSurface">#00A651</item>
+    </style>
+
+    <style name="Theme.FeresUI" parent="Base.Theme.FeresUI" />
+</resources>
